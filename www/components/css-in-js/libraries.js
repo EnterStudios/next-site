@@ -10,10 +10,9 @@ export default () => (
 
       <div className="content">
         <p>
-          Next.js provides styled-jsx out-of-the-box, with zero setup required,
-          so you can stop endlessly configuring your tools and get back to
-          building beautiful pages. Have another library of choice? Next.js also
-          works great with every popular CSS-in-JS solution.
+          Next.js provides styled-jsx out-of-the-box, with zero setup required, so you can stop
+          endlessly configuring your tools and get back to building beautiful pages. Have another
+          library of choice? Next.js also works great with every popular CSS-in-JS solution.
         </p>
       </div>
 
@@ -54,11 +53,6 @@ export default () => (
         .icons a {
           cursor: pointer;
           margin: 0 2.25rem;
-          opacity: 0.3;
-        }
-
-        .icons a:hover {
-          opacity: 1;
         }
 
         .flex {
