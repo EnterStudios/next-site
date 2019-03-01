@@ -19,29 +19,17 @@ export default () => (
   <Page>
     <Head>
       <title>Features - CSS-in-JS | Next.js</title>
-      <meta
-        name="description"
-        content="Leverage the speed and simplicity of static sites with the full power of Next.js"
-      />
-      <meta
-        name="keywords"
-        content="CSS-in-JS, CSS, JS, Next, JavaScript, Web Framework"
-      />
     </Head>
     <SocialMeta
       title="Features - CSS-in-JS | Next.js"
-      description="Leverage the speed and simplicity of static sites with the full power of Next.js"
+      description="Next.js lets you modularize your styles without the hassle"
       image="/static/twitter-cards/css-in-js.png"
       url="https://nexts.org/features/css-in-js"
+      keywords="CSS-in-JS, CSS, JS, Next, JavaScript, Web Framework"
     />
     <MediaQueryConsumer>
       {({ isMobile }) => (
-        <Header
-          height={64 + (isMobile ? 32 : 0)}
-          shadow
-          dotBackground
-          active={64}
-        >
+        <Header height={64 + (isMobile ? 32 : 0)} shadow dotBackground active={64}>
           <Navbar />
         </Header>
       )}
