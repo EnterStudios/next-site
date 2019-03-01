@@ -10,14 +10,9 @@ import Replit from '../icons/companies/replit';
 import Nike from '../icons/companies/nike';
 import Monday from '../icons/companies/monday';
 import Kap from '../icons/companies/kap';
+import JCrew from '../icons/companies/jcrew';
 
 const slides = [
-  {
-    href: 'https://hulu.com',
-    image: '/static/images/showcases/showcases-17.jpg',
-    alt: 'Hulu',
-    logo: <Hulu />
-  },
   {
     href: 'https://ticketmaster.com/',
     image: '/static/images/showcases/ticketmaster.jpg',
@@ -59,6 +54,18 @@ const slides = [
     image: '/static/images/showcases/kap.jpg',
     alt: 'Kap',
     logo: <Kap />
+  },
+  {
+    href: 'https://hulu.com',
+    image: '/static/images/showcases/showcases-17.jpg',
+    alt: 'Hulu',
+    logo: <Hulu />
+  },
+  {
+    href: 'https://jcrew.com',
+    image: '/static/images/showcases/jcrew.jpg',
+    alt: 'JCrew',
+    logo: <JCrew />
   }
 ];
 
@@ -87,10 +94,12 @@ export default () => (
           margin-top: -2rem;
           cursor: pointer;
           border-radius: 7px;
-          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1),
+            0px 10px 20px rgba(0, 0, 0, 0.08);
         }
         img:hover {
-          box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1),
+            0px 10px 10px rgba(0, 0, 0, 0.08);
         }
         .first.col {
           margin-bottom: 2rem;
